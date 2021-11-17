@@ -315,7 +315,7 @@ int lfModifier::EnableProjectionTransform (const lfLens* lens, float focal, lfLe
             //nothing to do
             break;
     };
-    return true;
+    return enabledMods;
 }
 
 void lfModifier::AddCoordDistCallback (const lfLensCalibDistortion& lcd, lfModifyCoordFunc func, int priority)
